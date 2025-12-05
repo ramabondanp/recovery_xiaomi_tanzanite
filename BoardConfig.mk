@@ -233,6 +233,9 @@ TARGET_USES_LOGD := true
 TW_NO_HAPTICS := true
 #TW_SUPPORT_INPUT_AIDL_HAPTICS := true
 
+# Disable the battery percentage for devices where it doesn't work properly
+TW_NO_BATT_PERCENT := true
+
 # Modules
 TW_LOAD_VENDOR_BOOT_MODULES := true
 #TW_LOAD_VENDOR_MODULES_EXCLUDE_GKI := true
